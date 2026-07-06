@@ -1,0 +1,1 @@
+const btn=document.querySelector('.hamb');const menu=document.querySelector('.menu');if(btn&&menu){btn.addEventListener('click',()=>menu.classList.toggle('open'));menu.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>menu.classList.remove('open')))}
